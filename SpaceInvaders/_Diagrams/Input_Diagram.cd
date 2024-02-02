@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.InputMan">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQEAAAAEAAAAACAAAABAAAAAAAAAAAAAIDCAAAAgAA=</HashCode>
+      <FileName>Input\InputMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pArrowLeftPressed" />
+      <Field Name="pArrowRightPressed" />
+      <Field Name="pSpacePressed" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.InputObserver">
+    <Position X="10.75" Y="5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.InputObserver.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Input\InputObserver.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQQABAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\InputObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSubject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.InputSubject">
+    <Position X="5.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAACAAAIAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\InputSubject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pObservers" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.MoveLeftObserver" Collapsed="true">
+    <Position X="8.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAAAAAAABAA=</HashCode>
+      <FileName>Input\MoveLeftObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MoveRightObserver" Collapsed="true">
+    <Position X="10.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAAAAAAABAA=</HashCode>
+      <FileName>Input\MoveRightObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShootObserver" Collapsed="true">
+    <Position X="12.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAAAAAAABAA=</HashCode>
+      <FileName>Input\ShootObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SLinkMan" Collapsed="true">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAEAAAAIAAAAAEAAABAAAAAAIAAAAAAAAAAAAQAs=</HashCode>
+      <FileName>Manager\SLinkMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SLink" Collapsed="true">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAIAAAAAABBAAA=</HashCode>
+      <FileName>Manager\SLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

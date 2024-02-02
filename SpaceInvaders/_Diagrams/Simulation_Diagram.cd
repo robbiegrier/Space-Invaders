@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Simulation">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Simulation.State" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Input\Simulation.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQABEAAAAAAAAAAAACBEggAAAAgAUAEAAAKUAABACA=</HashCode>
+      <FileName>Input\Simulation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

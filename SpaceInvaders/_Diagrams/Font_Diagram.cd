@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Font">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Font.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Font\Font.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAhAAAAAAAgAgAAAAMQAAAAABAIAAABAA=</HashCode>
+      <FileName>Font\Font.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poSpriteFont" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.FontMan" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAQAAAAAAAAAABhQAAAABIAEAAAAACAAAIAAA=</HashCode>
+      <FileName>Font\FontMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poNodeCompare" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteFont" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAABAAAAAAhAAAQAAAgAAAAAAMQAIAABhggAAABAA=</HashCode>
+      <FileName>Sprite\SpriteFont.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Glyph">
+    <Position X="9.25" Y="6" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Glyph.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Font\Glyph.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAShQAAAAAEgAUAAAAEQAAAAABAAAAABAA=</HashCode>
+      <FileName>Font\Glyph.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pTexture" />
+      <Field Name="poSubRect" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GlyphMan" Collapsed="true">
+    <Position X="4.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAQAAAAAAAAAABhQAAAABIAEAAAAACIAAIACA=</HashCode>
+      <FileName>Font\GlyphMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poNodeCompare" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Texture" Collapsed="true">
+    <Position X="12.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAhAAAAAAAgAEAAAAEQAAAAAAAAAAABAA=</HashCode>
+      <FileName>Texture\Texture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul.Rect" Collapsed="true">
+    <Position X="12.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true">
+    <Position X="12.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
